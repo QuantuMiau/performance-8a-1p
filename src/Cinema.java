@@ -110,9 +110,6 @@ public class Cinema {
         System.arraycopy(this.sales, 0, merged,0, this.sales.length);
         System.arraycopy(tempSales, 0, merged, this.sales.length, tempSales.length);
         this.sales = merged;
-
-        System.out.println(Arrays.toString(sales));
-
     }
 
     public int[] sortSales(int[] merged){
